@@ -1,0 +1,57 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>About Tyler Herd</title>
+    <!-- Bring in css and bootstrap-->
+    <link href="css/StyleSheet.css" rel="stylesheet" />
+    <link href="lib/bootstrap/css/bootstrap.css" rel="stylesheet" />
+    <!-- Icon image in tab -->
+    <link rel="shortcut icon" href="img/mountain-icon-14.jpg" type="image/x-icon" />
+
+</head>
+<body>
+    <!-- Main body contents -->
+    <h1>Tyler Herd</h1><br /><br />
+
+    <img src="img/IMG_0463.jpg" /><br /><br />
+
+    <h4>What I hope to get out of IS 413</h4>
+    <p>
+        I hope to gain valuable programming skills out of this class. Not only do I want to gain skills using ASP.NET, but I hope to also
+        learn how to learn. Using Visual Studio Community will also be something that I hope to attain from this class. Overall, I hope to gain
+        skills that will be useful in my career.
+    </p><br /><br />
+
+    <h4>Top 3 Jobs After Graduation:</h4>
+    <ol>
+        <li>Database Engineer</li>
+        <li>Data Analyst</li>
+        <li>Web Developer</li>
+    </ol><br /><br />
+
+    <!-- Grade Calculator form that uses js to calculate final grade -->
+    <h4>Grade Calculator:</h4>
+    <form>
+        <div style="width: 600px">
+            <label for="assgn">Assignments (55%):</label>
+            <input id="assgn" type="number" class="form-control" /><br />
+            <label for="gp">Group Project (5%):</label>
+            <input id="gp" type="number" class="form-control" /><br />
+            <label for="quiz">Quizzes (10%):</label>
+            <input id="quiz" type="number" class="form-control" /><br />
+            <label for="exam">Exams (20%):</label>
+            <input id="exam" type="number" class="form-control" /><br />
+            <label for="intex">INTEX (10%):</label>
+            <input id="intex" type="number" class="form-control" /><br /><br />
+            <input id="calcGrade" type="button" value="Calculate" class="btn btn-primary"/><br /><br />
+            <p id="displayGrade"></p>
+        </div>
+    </form>
+
+    <!-- Bring in js to program -->
+    <script src="lib/bootstrap/js/bootstrap.js"></script>
+    <script src="lib/jquery/jquery-3.6.0.min.js"></script>
+    <script src="js/GradeCalc.js"></script>
+</body>
+</html>

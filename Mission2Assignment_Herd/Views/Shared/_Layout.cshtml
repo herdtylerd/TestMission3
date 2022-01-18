@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <meta charset="utf-8" />
+    <title>@ViewBag.Title</title>
+    <!-- Bring in css and bootstrap-->
+    <link href="~/css/StyleSheet.css" rel="stylesheet" />
+    <link href="~/lib/bootstrap/css/bootstrap.css" rel="stylesheet" />
+    <!-- Icon image in tab -->
+    <link rel="shortcut icon" href="img/mountain-icon-14.jpg" type="image/x-icon" />
+</head>
+<body>
+    <nav>
+        <a asp-controller="Main" asp-action="Index">Home</a>
+        <a asp-controller="Main" asp-action="GradeCalc">Grade Calculator</a>
+    </nav>
+    <div>
+        @RenderBody()
+    </div>
+    <br /><br /><br />
+
+    <footer>
+        Copyright Herd 2022
+    </footer>
+
+    <!-- Bring in js to program -->
+    <script src="~/lib/bootstrap/js/bootstrap.js"></script>
+    <script src="~/lib/jquery/jquery-3.6.0.min.js"></script>
+    <script src="~/js/GradeCalc.js"></script>
+</body>
+</html>

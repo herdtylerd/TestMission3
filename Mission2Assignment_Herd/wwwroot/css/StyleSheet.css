@@ -1,0 +1,13 @@
+﻿body {
+    padding: 35px;
+    width: 1000px;
+}
+
+img {
+    width:600px;
+}
+
+label {
+    width:150px;
+    display: inline-block;
+}
