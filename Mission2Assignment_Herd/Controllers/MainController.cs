@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Mission3Assignment_Herd.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -20,7 +21,7 @@ namespace Mission3Assignment_Herd.Controllers
         }
 
         [HttpPost]
-        public IActionResult GradeCalc(object model)
+        public IActionResult GradeCalc(GradeCalcModel model)
         {
             return View();
         }
