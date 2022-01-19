@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace Mission3Assignment_Herd.Models
 {
+    // Grade Calculation Model
     public class GradeCalcModel
     {
         [Required]
